@@ -141,12 +141,16 @@ Verify one course card contains:
 
 ```text
 src
- └── test
+├── main ├── java
+│               ├── pages
+│               └── utilities
+│         
+│
+│── test
       ├── java
       │    ├── base
-      │    ├── pages
       │    ├── tests
-      │    └── utilities
+      │    
       │
       └── resources
            ├── config.properties
